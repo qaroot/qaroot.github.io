@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RST | Meal</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="image/favicon.png">
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+
+<!-- Start Header Section -->
+<header class="header">
+    
+    <a href="#" class="logo"><i class="fa-solid fa-basket-shopping"></i> RST | MEAL</a>
+    
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#meals">Meals</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fa-solid fa-bars" id="menu-btn"></div>
+        <div class="fa-solid fa-magnifying-glass" id="search-btn"></div>
+        <div class="fa-solid fa-cart-shopping" id="cartShopping-btn"></div>
+        <div class="fa-solid fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search Here ..."/>
+        <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fa-solid fa-trash-can"></i>
+            <img src="image/meal-1.jpg" />
+            <div class="content">
+                <h4>Ban Cake</h4>
+                <span class="price">$2.5</span>
+                <span class="qty">qty: 2</span>
+                <span class="total">Total: $5</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-trash-can"></i>
+            <img src="image/meal-3.jpg" />
+            <div class="content">
+                <h4>Chiken</h4>
+                <span class="price">$8.75</span>
+                <span class="qty">qty : 2</span>
+                <span class="total">Total: $17.50</span>
+            </div>
+        </div>
+        <div class="total-price">Total: <span>$22.50</span></div>
+        <a href="#" class="btn">Checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>Login</h3>
+        <label for="username">Enter Your Username:</label>
+        <input type="text" name="username" id="username" placeholder="Write Here ..."/>
+        <label for="password">Enter Your Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter Your Password ..."/>
+        <p>Forget Your Password ? <a href="#"> Remmber ME</a></p>
+        <p>Don't Have an Account  <a href="#"> Create Now!</a></p>
+        <input type="submit" value="Login" class="btn">
+
+    </form>
+</header>
+<!-- End Header Section -->
+
+<!-- Start Home Section -->
+<section class="home" id="home">
+    <div class="content">
+        <h3><span>Eat & Drink </span> What You Want <span>AND</span> Where You Want</h3>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, voluptatum, dolorem amet itaque cumque repudiandae deleniti praesentium optio quidem hic animi sunt fugiat magni, aperiam dolor? Molestias reprehenderit, nisi expedita distinctio hic odio? Mollitia maxime accusamus repudiandae culpa odit! Quis!
+        </p>
+        <a href="#" class="btn">Make an Order</a>
+    </div>
+</section>
+<!-- End Home Section -->
+
+<!-- Start Feature Section -->
+<section class="features" id="features">
+    <h1 class="heading">Our <span>Feature</span></h1>
+    <div class="cards"> 
+        <div class="card" style="background: url(image/chiken.jpg)">
+            <div class="card-content">
+                <h4 class="card-title">Chicken</h4>
+                <p class="card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae earum quidem deserunt vel, exercitationem sint. Quasi beatae libero corporis sed!
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="card" style="background: url(image/meal-1.jpg)">
+            <div class="card-content">
+                <h4 class="card-title">Sweet</h4>
+                <p class="card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae earum quidem deserunt vel, exercitationem sint. Quasi beatae libero corporis sed!
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="card" style="background: url(image/salid.jpg)">
+            <div class="card-content">
+                <h4 class="card-title">Salid</h4>
+                <p class="card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae earum quidem deserunt vel, exercitationem sint. Quasi beatae libero corporis sed!
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="card" style="background: url(image/fruit.jpg)">
+            <div class="card-content">
+                <h4 class="card-title">Juice</h4>
+                <p class="card-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae earum quidem deserunt vel, exercitationem sint. Quasi beatae libero corporis sed!
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<!-- End Feature Section -->
+
+<!-- Start Meals Section -->
+<section class="meals" id="meals">
+    <h1 class="heading">Our <span>Meals</span></h1>
+    <div class="swiper meals-silder">
+        <div class="swiper-wrapper">
+            <div class="box swiper-slide">
+                <img src="image/meal-3.jpg"/>
+                <h3>Chiken Breast</h3>
+                <div class="price">$8.75</div>
+                <div class="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="box swiper-slide">
+                <img src="image/meat.jpg"/>
+                <h3>Meat</h3>
+                <div class="price">$12.75</div>
+                <div class="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="box swiper-slide">
+                <img src="image/meal-1.jpg"/>
+                <h3>Ban Cake</h3>
+                <div class="price">$4.75</div>
+                <div class="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="box swiper-slide">
+                <img src="image/meal-2.jpg"/>
+                <h3>Spageti</h3>
+                <div class="price">$8.75</div>
+                <div class="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="box swiper-slide">
+                <img src="image/orange.jpg"/>
+                <h3>Orange Juice</h3>
+                <div class="price">$2.75</div>
+                <div class="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="box swiper-slide">
+                <img src="image/Strawberry.jpg"/>
+                <h3>Strawberry Juice</h3>
+                <div class="price">$2.75</div>
+                <div class="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+        </div>
+    </div>
+</section> 
+<!-- End Meals Section -->
+
+<!-- Start Review Section -->
+<section class="review" id="review">
+
+    <h1 class="heading">Customer's <span>Reviews</span></h1>
+    <div class="swiper review-silder">
+        <div class="swiper-wrapper">
+            <div class="box swiper-slide">
+                <img src="image/customer-1.jpg"/>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet qui nam quia id! Maiores quos rem nam animi iste labore earum dolorem. Eligendi quod expedita maxime rem quaerat ea pariatur.
+                </p>
+                <h3>John Deap</h3>
+                <div class="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+            <div class="box swiper-slide">
+                <img src="image/customer-3.jpg.crdownload"/>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet qui nam quia id! Maiores quos rem nam animi iste labore earum dolorem. Eligendi quod expedita maxime rem quaerat ea pariatur.
+                </p>
+                <h3>Alex Santa</h3>
+                <div class="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+            <div class="box swiper-slide">
+                <img src="image/customer-2.jpg"/>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet qui nam quia id! Maiores quos rem nam animi iste labore earum dolorem. Eligendi quod expedita maxime rem quaerat ea pariatur.
+                </p>
+                <h3>Cress Type</h3>
+                <div class="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+            <div class="box swiper-slide">
+                <img src="image/customer-4.jpg"/>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet qui nam quia id! Maiores quos rem nam animi iste labore earum dolorem. Eligendi quod expedita maxime rem quaerat ea pariatur.
+                </p>
+                <h3>ALy Steve</h3>
+                <div class="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+            <div class="box swiper-slide">
+                <img src="image/customer-6.jpg"/>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet qui nam quia id! Maiores quos rem nam animi iste labore earum dolorem. Eligendi quod expedita maxime rem quaerat ea pariatur.
+                </p>
+                <h3>Sam Breast</h3>
+                <div class="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+            <div class="box swiper-slide">
+                <img src="image/customer-5.jpg"/>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet qui nam quia id! Maiores quos rem nam animi iste labore earum dolorem. Eligendi quod expedita maxime rem quaerat ea pariatur.
+                </p>
+                <h3>Dean Loke</h3>
+                <div class="rate">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Review Section -->
+
+<!-- Start BLogs Section -->
+<section class="blogs" id="blogs">
+    <h1 class="heading">Our <span>Blogs</span></h1>
+    <div class="boxs">
+        <div class="box">
+            <img src="image/meat-1.jpg" />
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa-regular fa-user"></i> By User</a> 
+                    <a href=""><i class="fa-regular fa-calendar"></i> 1 <sup>St</sup> , May 2022</a>
+                </div>
+                <h3>Organic <span>Meat</span> From Speical Farm To Speical Customer</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci minima praesentium ipsa rerum impedit, repellat ducimus porro doloribus in reiciendis velit corporis neque dolores quaerat optio culpa voluptatibus eaque.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/fruit-1.jpg" />
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa-regular fa-user"></i> By User</a> 
+                    <a href=""><i class="fa-regular fa-calendar"></i> 1 <sup>St</sup> , May 2022</a>
+                </div>
+                <h3>Organic <span>Fruit</span> From Speical Farm To Speical Customer</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci minima praesentium ipsa rerum impedit, repellat ducimus porro doloribus in reiciendis velit corporis neque dolores quaerat optio culpa voluptatibus eaque.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/veg.jpg" />
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa-regular fa-user"></i> By User</a> 
+                    <a href=""><i class="fa-regular fa-calendar"></i>  1<sup>St</sup>, May 2022</a>
+                </div>
+                <h3>Organic <span>Vegetables</span> From Speical To Speical Customer</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci minima praesentium ipsa rerum impedit, repellat ducimus porro doloribus in reiciendis velit corporis neque dolores quaerat optio culpa voluptatibus eaque.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/spices.jpg" />
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fa-regular fa-user"></i> By User</a> 
+                    <a href=""><i class="fa-regular fa-calendar"></i>  1<sup>St</sup>, May 2022</a>
+                </div>
+                <h3>Organic <span>Spices</span> From Speical To Speical Customer</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores adipisci minima praesentium ipsa rerum impedit, repellat ducimus porro doloribus in reiciendis velit corporis neque dolores quaerat optio culpa voluptatibus eaque.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End BLogs Section -->
+
+<!-- Start Footer Section -->
+<footer>
+    <div class="boxes">
+        <div class="box">
+            <h3><i class="fa-solid fa-basket-shopping"></i> RST | MEAL</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, tempore.</p>
+            <div class="social">
+                <a href="https://www.facebook.com/M.Qaroot.191597" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/m_qaroot/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/QarootM" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="box">
+            <h3>Contact Info</h3>
+            <div>
+                <a href="#"><i class="fa-solid fa-phone-flip"></i> + 972 595 191 301</a>
+                <a href="#"><i class="fa-regular fa-envelope"></i> mohammed.qaroot1997@gmail.com</a>
+                <a href="#"><i class="fa-regular fa-location-pin"></i> Gaza, Palestine - 00972</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Quick Link</h3>
+                <a href="#home"><i class="fa-solid fa-arrow-right"></i> Home</a>
+                <a href="#features"><i class="fa-solid fa-arrow-right"></i> Features</a>
+                <a href="#meals"><i class="fa-solid fa-arrow-right"></i> Meals</a>
+                <a href="#review"><i class="fa-solid fa-arrow-right"></i> Review</a>
+                <a href="#blogs"><i class="fa-solid fa-arrow-right"></i> Blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>Newsletter</h3>
+            <p>Subscribe For All New MEals</p>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email"/>
+            <input type="submit" value="Subscribe" class="btn">
+            <img src="image/payment methods.png" />
+        </div>
+    </div>
+</footer>
+<!-- End Footer Section -->
+
+
+    <!-- Swipper JS -->
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS File -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
